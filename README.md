@@ -1,4 +1,3 @@
-[README (1).md](https://github.com/user-attachments/files/26504617/README.1.md)
 
 # FFCS Scheduler
 
