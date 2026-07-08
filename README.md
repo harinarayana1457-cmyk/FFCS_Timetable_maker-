@@ -1,32 +1,29 @@
-# React + TypeScript + Vite
+# FFCS Scheduler
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Your Stress-Free Course Planner. Manually planning a semester schedule during FFCS is like solving a puzzle where the pieces keep moving. I built this web application to help students visualize their timetable, prevent slot clashes, and export their perfect schedule in seconds.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Core: React.js, Vite, TypeScript
 
-## React Compiler
+Deployment: Netlify / Vercel
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Backend/Tools: Firebase, Google Cloud Platform
 
-## Expanding the Oxlint configuration
+Design: Antigravity, Claude, Llama
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Features
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+- Conflict Detection: Real-time alerts if you try to book two subjects in the same slot.
+- Visual Grid: A dynamic, color-coded calendar view that updates as you add courses.
+- Credit Tracker: Keep an eye on your total credits to stay within university limits.
+- Export to PDF/Image: Save your final draft to have it ready for the actual registration window.
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Appendix
+
+If you have any feedback or suggestions on how to improve this portfolio, please reach out via the contact section on the site or open an issue in this repository!
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hari-narayana-035ba1389/?skipRedirect=true)
+
